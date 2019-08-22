@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="resources/css/style.css" media="screen"/>
+        <title>Yesai Gaming</title>
+		<meta name="description" content="Streaming & Mistouflettes Since 2015">
+		<meta name="author" content="Violaine Varicca">
+		<meta name="keywords" content="Yesai, TOX, tox, yesai, YESAI, Gaming, e-sport, battlefield, battlefield 5, battlefied 4,
+										BF V, Battlefield V, BF, mistouflette, mistouflettes, poulet, game, jeux, jeux vidéo, pelle,
+										slip, turfu, poulet du turfu, Yesai Gaming, tox yesai, call of duty,
+										twitch, live, streaming, youtube,discord, twitter">
+    </head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href='index.html'>Live</a></li>
+					<li><a href='pages/videos.html'>Vidéos</a></li>
+					<img src='resources/img/logo.png' alt='Yesai'/>
+					<li><a href='https://utip.io/yesai/shop' target='_blank'>Shop</a></li>
+					<li><a href='pages/lexique.html'>Lexique pouleto-français</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<aside>
+			<a onclick=''><img src='resources/img/planning.png' alt='planning'/></a>
+			<a href='https://utip.io/yesai/shop' target='_blank'><img src='resources/img/boutique.png' alt='boutique'/></a>
+			<a href='https://discord.gg/DYWn5p3' target='_blank'><img src='resources/img/discord.png' alt='discord'/></a>
+			<a href='https://twitter.com/TOX_Yesai' target='_blank'><img src='resources/img/twitter.png' alt='twitter'/></a>
+			<a href='https://www.youtube.com/user/yesai2kc' target='_blank'><img src='resources/img/youtube.png' alt='youtube'/></a>
+			<a href='http://twitch.tv/tox_yesai' target='_blank'><img src='resources/img/twitch.png' alt='twitch'/></a>
+		</aside>
+		
+		<section>
+			<div id='partieGauche'>
+			
+				<div id='videoConteneur'>
+					<iframe class='video'
+							src="https://player.twitch.tv/?channel=tox_yesai"
+							height="540"
+							width="960"
+							frameborder="0"
+							scrolling="no"
+							allowfullscreen="true">
+					</iframe>
+				</div>	
+				
+				<div id='infosStream'>
+					<label id='streamTitle'></label>
+					<div  id='nombreVues'>
+						<img src='resources/img/oeil.png' alt='vues'/>
+						<span id='nbVues'></span>
+					</div>
+				</div>	
+				
+				<a id="abonnement" href='http://vic.captainweb.net/' target="_blank"><img src='resources/img/abo.png' alt='Abonne toi'></img></a>
+			</div>	
+			
+			<div id='chatConteneur'>
+				<iframe class='chat'
+					frameborder="0"
+					scrolling="no"
+					id="tox_yesai"
+					src="https://www.twitch.tv/embed/tox_yesai/chat?darkpopout"
+					height="500"
+					width="550">
+				</iframe>
+			</div>	
+		</section>
+		
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/infos-stream.js"></script>
+	</body>
+</html>
