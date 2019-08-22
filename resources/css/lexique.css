@@ -1,0 +1,27 @@
+#lexique {
+	padding-left:360px;
+	min-height:100%;
+	min-width:60%;
+}
+
+h1 {
+	color: rgb(183,0,0);
+	font-size:250%;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.lettre h2 {
+	color: rgb(183,0,0);
+	border-bottom: rgb(183,0,0) groove 1px;
+}
+
+.entreeLexique {
+	margin-left: 4%;
+	margin-bottom:1%;
+}
+
+.mot {
+	font-weight: bold;
+	font-size: 105%;
+}

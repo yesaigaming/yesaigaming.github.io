@@ -1,0 +1,29 @@
+#listeYT {
+	padding-left:180px;
+	padding-top:10px;
+	min-height:100%;
+	min-width:60%;
+}
+.itemYT {
+	border-bottom: rgb(183,0,0) groove 1px;
+	display: flex;
+	flex-direction:row;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+.itemYT img {
+	height:250px !important;
+	width: 320px !important;
+    margin: -32px 0 0 0px;
+}
+.containerImg {
+	min-width: 320px !important;
+    height: 180px !important;
+	overflow:hidden !important;
+	border: rgb(183,0,0) groove 3px;
+	margin-right: 2%;
+}
+.itemYT a {
+	color: rgb(183,0,0);
+	text-decoration:none;
+}
