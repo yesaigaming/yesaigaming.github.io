@@ -191,11 +191,7 @@ section {
 	width:30%;
 	height:20%;
 	color:white;
-	flex-direction:row;
-	justify-content: space-between;
 	border:solid 3px rgb(183,0,0);
-	padding:1%;
-    align-items: center;
 	
 	background-image: url('../img/background-black.jpg');
 	background-repeat: no-repeat;
@@ -204,6 +200,17 @@ section {
 	
 	z-index:1;
 }
+
+#calContent {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding:1%;
+    align-items: center;
+	height:100%;
+	
+}
+
 .jour {
 	width:15%;
 	display:flex;
