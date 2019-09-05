@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="../resources/css/style.css" media="screen"/>
-	        <link rel="icon" type="image/png" href="../resources/img/logo.png" /> 
 		<link rel="stylesheet" href="../resources/css/youtube.css" media="screen"/>
         <title>Yesai Gaming</title>
 		<meta name="description" content="Streaming & Mistouflettes Since 2015">
@@ -27,12 +26,45 @@
 		</header>
 		
 		<aside>
-			<a onclick=''><img src='../resources/img/planning.png' alt='planning'/></a>
+			<a onclick='masque_show("#Apropos")'><img src='../resources/img/info.png' alt='infos'/></a>
+			<a onclick='masque_showCal("#calendrier");'><img src='../resources/img/planning.png' alt='planning'/></a>
 			<a href='https://utip.io/yesai/shop' target='_blank'><img src='../resources/img/boutique.png' alt='boutique'/></a>
 			<a href='https://discord.gg/DYWn5p3' target='_blank'><img src='../resources/img/discord.png' alt='discord'/></a>
 			<a href='https://twitter.com/TOX_Yesai' target='_blank'><img src='../resources/img/twitter.png' alt='twitter'/></a>
+			<a href='https://www.instagram.com/tox_yesai/' target='_blank'><img src='../resources/img/instagram.png' alt='instagram'/></a>
 			<a href='https://www.youtube.com/user/yesai2kc' target='_blank'><img src='../resources/img/youtube.png' alt='youtube'/></a>
 			<a href='http://twitch.tv/tox_yesai' target='_blank'><img src='../resources/img/twitch.png' alt='twitch'/></a>
+		</aside>
+		
+		<aside id='Apropos'>
+			<p>Bla bla bla bla poulet</br>
+			bla bla pelle</br>
+			Bla bla bla Mistouflettes</br>
+			Lorem Ipsum</br>
+			Et voila la bio.</p>
+		</aside>
+		
+		<aside id='calendrier'>
+			<div class='jour' id='01'>
+				<span class='nomJour'>Lun.</span>
+				<span class='heure'>18:00</span>
+			</div>
+			<div class='jour' id='02'>
+				<span class='nomJour'>Mar.</span>
+				<span class='heure'>18:00</span>
+			</div>
+			<div class='jour' id='03'>
+				<span class='nomJour'>Mer.</span>
+				<span class='heure'>17:00</span>
+			</div>
+			<div class='jour' id='04'>
+				<span class='nomJour'>Jeu.</span>
+				<span class='heure'>18:00</span>
+			</div>
+			<div class='jour' id='05'>
+				<span class='nomJour'>Ven.</span>
+				<span class='heure'>18:00</span>
+			</div>
 		</aside>
 		
 		<section>
@@ -42,5 +74,6 @@
 		
 		<script src="../js/jquery-2.1.4.min.js"></script>
 		<script src="../js/infos-youtube.js"></script>
+		<script src="../js/animations.js"></script>
 	</body>
 </html>
