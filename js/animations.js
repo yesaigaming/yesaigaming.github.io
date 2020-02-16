@@ -21,7 +21,7 @@ $(document).ready(function() {
 	
 	function updateAge ()
 	{
-		var date = new Date(1985, 2, 12)
+		var date = new Date(1985, 1, 12)
 		var diff = Date.now() - date.getTime();
 		var age = new Date(diff); 
 		var ageAffich = Math.abs(age.getUTCFullYear() - 1970);
